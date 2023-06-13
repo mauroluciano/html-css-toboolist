@@ -24,7 +24,7 @@ header .logo{
     height: 60px;
     line-height: 60px;
     display: inline;
-    margin-left: 10px;
+    margin-left: 60px;
 }
 
 header .text-logo{
@@ -40,7 +40,7 @@ header .text-logo{
 
 .main{
     width: 800px;
-    height: 400px;
+    height: 600px;
     background-color: white;
     border-radius: 10px;
     margin: 30px auto;
@@ -76,12 +76,23 @@ header .text-logo{
 
 ul{
     margin: 0;
+    height: 30px;
 }
 
-ul span{
+.ul{
+    margin: 0;
+background-color: red;
+}
+
+section{
+    margin: 20px;
+}
+
+.title {
     font-weight: 800;
     font-size: 20px;
     display: inline;
+    margin: 20px 0 0 20px;
 }
 
 ul h3{
@@ -102,20 +113,28 @@ ul h5{
     color: green;
 }
 
+.false{ 
+    border-radius: 50%;
+    border: 1px red solid;
+    font-size: small;
+    color: red;
+}
+
 ul .butt-blu,
-ul .butt-violet{
+ul .butt-violet,
+ul .butt-green,
+ul .butt-orange{
     border-radius: 20px;
     color: white;
     display: inline-block;
     width: 50px;
     text-align: center;
-    margin: 20px;
+    margin: 5px;
     height: 20px;
     line-height: 20px;
     font-size: 8px;
     vertical-align: middle;
 }
-
 
 ul .butt-blu{
     background-color: #47adf1;
@@ -124,3 +143,15 @@ ul .butt-blu{
 ul .butt-violet{
     background-color: #9c72e4;
 }
+
+ul .butt-green{
+    background-color: #64c0a9;
+}
+
+ul .butt-orange{
+    background-color: #f29e33;
+}
+
+
+
+
