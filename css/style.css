@@ -123,7 +123,9 @@ ul h5{
 ul .butt-blu,
 ul .butt-violet,
 ul .butt-green,
-ul .butt-orange{
+ul .butt-orange,
+ul .butt-rose,
+ul .butt-yellow{
     border-radius: 20px;
     color: white;
     display: inline-block;
@@ -150,6 +152,14 @@ ul .butt-green{
 
 ul .butt-orange{
     background-color: #f29e33;
+}
+
+ul .butt-rose{
+    background-color: #d863a1;
+}
+
+ul .butt-yellow{
+    background-color: #b0c926;
 }
 
 
