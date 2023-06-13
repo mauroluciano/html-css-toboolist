@@ -5,6 +5,7 @@
 
 body{
     background-color: lightgray;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -41,7 +42,7 @@ header .text-logo{
     width: 800px;
     height: 400px;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 10px;
     margin: 30px auto;
 }
 
@@ -53,24 +54,28 @@ header .text-logo{
 
 .nav .button-sx{
     background-color: #47adf1;
-    border-radius: 50px;
+    border-radius: 30px;
     color: white;
     display: inline-block;
-    width: 90px;
+    width: 100px;
     text-align: center;
     margin: 20px;
+    height: 30px;
+    line-height: 30px;
 }
 
 .nav .button-dx{
-    border-radius: 50px;
+    border-radius: 30px;
     border: 1px solid lightgray;
     display: inline-block;
-    width: 90px;
+    width: 100px;
     text-align: center;
+    height: 30px;
+    line-height: 30px;
 }
 
 ul{
-    margin: 10px;
+    margin: 0;
 }
 
 ul span{
@@ -82,4 +87,40 @@ ul span{
 ul h3{
     display: inline;
     vertical-align: middle;
+}
+
+ul h5{
+    display: inline;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.true{ 
+    border-radius: 50%;
+    border: 1px green solid;
+    font-size: small;
+    color: green;
+}
+
+ul .butt-blu,
+ul .butt-violet{
+    border-radius: 20px;
+    color: white;
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    margin: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 8px;
+    vertical-align: middle;
+}
+
+
+ul .butt-blu{
+    background-color: #47adf1;
+}
+
+ul .butt-violet{
+    background-color: #9c72e4;
 }
